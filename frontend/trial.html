@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Plan Output</title>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg") center center no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            display: inline-flex;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .output-container {
+            background: #f8f4e5;
+            padding: 50px 100px;
+            border: 2px solid black;
+            box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px black;
+            font-family: "Fjalla One";
+            max-width: 250px;
+            height: 400px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2A293E;
+            margin-bottom: 20px;
+        }
+
+        .plan-paragraph {
+            margin-bottom: 20px;
+            line-height: 1.6;
+            color: #2A293E;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            line-height: 28pt;
+            padding: 0 20px;
+            background: #ffa580;
+            letter-spacing: 2px;
+            transition: 0.2s all ease-in-out;
+            outline: none;
+            border: 1px solid black;
+            box-shadow: 3px 3px 1px 1px #95a4ff, 3px 3px 1px 2px black;
+        }
+
+        button:hover {
+            background: black;
+            color: white;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="output-container">
+        <h1>Diet Planner</h1>
+        <p class="plan-paragraph" id="diet-plan-output">Provide us with your little details and get a diet plan made just for you</p>
+        <button onclick="goBack()">Try</button>
+    </div>
+    <div class="output-container">
+        <h1>Health Buddy</h1>
+        <p class="plan-paragraph" id="diet-plan-output">Talk with our RAG Based chatbot, fine tuned on american research data</p>
+        <button onclick="goBack()">Try</button>
+    </div>
+    <div class="output-container">
+        <h1>Find Recipe</h1>
+        <p class="plan-paragraph" id="diet-plan-output">Bored of those healthy boring recipes? Try out recipe recommender</p>
+        <button onclick="goBack()">WIP</button>
+    </div>
+</body>
+</html>
