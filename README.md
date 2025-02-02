@@ -2,11 +2,11 @@ Here's the updated README file for your project "BurgerPizza" with the additiona
 
 ---
 
-# Healthy-Burger
+# NutriMate
 
 ## Overview
 
-Healthy-Burger is a web application designed to help users plan their diets and interact with a chatbot for additional assistance. The project consists of two main sections: a Diet Planner and a Chatbot.
+NutriMate is a web application designed to help users plan their diets and interact with a chatbot for additional assistance. The project consists of two main sections: a Diet Planner and a Chatbot.
 
 ## Sections
 
